@@ -6,42 +6,10 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "aportes",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "found",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFoundByMe",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -53,6 +21,19 @@
 					}
 				],
 				"name": "getFoundFrom",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFoundFromyMe",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -92,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/FoundMe.sol": {
-			"keccak256": "0x8c17848f367a179c4906fab55d4e23d73df0debe110917591f2162289402d120",
+			"keccak256": "0xf6bd820be8fb5010a23a0de9978c02a9517b92f79f6d487985d59f9a9a9b99f1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://462d6cc7ab603df8de437b2aa5719e9bb40193244923704ef4d54d9645b4a0b1",
-				"dweb:/ipfs/QmXw7fFCWxYKoUGXa1BCSjU3LQvvhwYNKtxvS18tEpHabG"
+				"bzz-raw://b4ad478c779bf59509597ee419e0e6385044c8ca566e0d93110ffa334fb47767",
+				"dweb:/ipfs/QmdBrTUMxx3U5pSXQAnjon7eSyt2UeqT741hv6y6m8CW4X"
 			]
 		}
 	},
